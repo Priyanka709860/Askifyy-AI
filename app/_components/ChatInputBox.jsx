@@ -701,34 +701,7 @@ ${userSearchInput}
 
             <Tabs defaultValue="search" className="w-full">
 
-              <TabsList className="grid w-full grid-cols-2 mb-4 bg-white/10 border border-white/20 rounded-lg p-1">
-
-                <TabsTrigger
-                  value="search"
-                  onClick={() =>
-                    setSearchType("search")
-                  }
-                  className="flex items-center justify-center gap-2 text-white data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500 data-[state=active]:to-pink-500 rounded-md py-2"
-                >
-                  <SearchCheck className="w-4 h-4" />
-
-                  Search
-                </TabsTrigger>
-
-                <TabsTrigger
-                  value="research"
-                  onClick={() =>
-                    setSearchType("research")
-                  }
-                  className="flex items-center justify-center gap-2 text-white data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-500 data-[state=active]:to-pink-500 rounded-md py-2"
-                >
-                  <Atom className="w-4 h-4" />
-
-                  Research
-                </TabsTrigger>
-
-              </TabsList>
-
+              
               <TabsContent
                 value="search"
                 className="animate-fade-in mt-0"
